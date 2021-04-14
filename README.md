@@ -4,7 +4,7 @@
 
 ## Demonstration
 
-> _Responsive Video_ 
+> _Image Inspiration_ 
 ![Demo: 'Online Course School'](assets/imgs/inspiration/inspiration.png)
 
 ### Description
