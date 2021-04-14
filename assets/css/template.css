@@ -1,0 +1,18 @@
+:root {
+  --nomeVar: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+body {
+  background-color: #000;
+}
+
+img {
+  max-width: 100%;
+}

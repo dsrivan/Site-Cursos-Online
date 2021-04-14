@@ -5,7 +5,7 @@
 ## Demonstration
 
 > _Image Inspiration_ 
-![Demo: 'Online Course School'](assets/imgs/inspiration/inspiration.png)
+![Demo: 'Online Course School'](assets/images/demo/inspiration/inspiration.png)
 
 ### Description
 
