@@ -17,6 +17,7 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -24,4 +25,8 @@ body {
 .divWelcome span,
 .divWelcome h1 {
   font-size: 2em;
+}
+
+.divWelcome button {
+  margin-top: 20px;
 }
