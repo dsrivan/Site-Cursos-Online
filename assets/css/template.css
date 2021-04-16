@@ -13,32 +13,31 @@ body {
   background-color: #f5f5f5;
 }
 
-.divWelcome {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.divWelcome span,
-.divWelcome h1 {
-  font-size: 2em;
-}
-
-.divWelcome button {
-  margin-top: 20px;
-}
-
-.dNone {
-  display: none;
-}
-
 header {
   width: 100vw;
   height: 80vh;
-  background-color: gray;
+}
+
+header .header {
+  height: 80px;
+}
+
+header .header .headerBrand {
+  width: 150px;
+  height: 100%;
+}
+
+header .header .headerNav {
+  flex: 1;
+}
+
+header .header .headerNav nav ul li {
+  margin: 0 10px;
+}
+
+header .headerTitles {
+  height: calc(80vh - 80px);
+  background-color: #e0e0e0;
 }
 
 main {
