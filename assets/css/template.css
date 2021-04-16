@@ -30,3 +30,25 @@ body {
 .divWelcome button {
   margin-top: 20px;
 }
+
+.dNone {
+  display: none;
+}
+
+header {
+  width: 100vw;
+  height: 80vh;
+  background-color: gray;
+}
+
+main {
+  width: 100vw;
+  height: 400px;
+  background-color: #c7c7c7;
+}
+
+footer {
+  width: 100vw;
+  height: 50px;
+  background-color: #1d1d1d;
+}
