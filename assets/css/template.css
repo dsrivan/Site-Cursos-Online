@@ -15,7 +15,7 @@ body {
 
 header {
   width: 100vw;
-  height: 80vh;
+  height: 60vh;
 }
 
 header .header {
@@ -36,8 +36,7 @@ header .header .headerNav nav ul li {
 }
 
 header .headerTitles {
-  height: calc(80vh - 80px);
-  background-color: #e0e0e0;
+  height: calc(60vh - 80px);
 }
 
 main {
