@@ -15,7 +15,18 @@ body {
 
 header {
   width: 100vw;
-  height: 60vh;
+  height: 80vh;
+  position: relative;
+  background-image: url("../images/menino-no-laptop.jpg");
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  clip-path: polygon(0 0, 100% 0%, 85% 80%, 0% 90%);
+  background-color: lightgreen;
+}
+
+header::after {
+  border: 2px solid red;
 }
 
 header .header {
@@ -28,16 +39,15 @@ header .header .headerBrand {
 }
 
 header .header .headerNav nav ul li {
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 header .headerTitles {
-  height: calc(60vh - 80px);
+  height: calc(80vh - 80px);
 }
 
 main {
   width: 100vw;
-  background-color: #dadada;
 }
 
 footer {
