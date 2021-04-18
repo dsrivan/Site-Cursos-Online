@@ -27,10 +27,6 @@ header .header .headerBrand {
   height: 100%;
 }
 
-header .header .headerNav {
-  flex: 1;
-}
-
 header .header .headerNav nav ul li {
   margin: 0 10px;
 }
@@ -41,8 +37,7 @@ header .headerTitles {
 
 main {
   width: 100vw;
-  height: 400px;
-  background-color: #c7c7c7;
+  background-color: #dadada;
 }
 
 footer {
