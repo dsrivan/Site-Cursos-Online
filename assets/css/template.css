@@ -17,16 +17,12 @@ header {
   width: 100vw;
   height: 80vh;
   position: relative;
-  background-image: url("../images/menino-no-laptop.jpg");
+  background-image: url("../images/mulher-no-laptop.jpg");
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
-  clip-path: polygon(0 0, 100% 0%, 85% 80%, 0% 90%);
+  clip-path: polygon(0 0, 100% 0%, 85% 80%, 0% 95%);
   background-color: lightgreen;
-}
-
-header::after {
-  border: 2px solid red;
 }
 
 header .header {
@@ -44,6 +40,22 @@ header .header .headerNav nav ul li {
 
 header .headerTitles {
   height: calc(80vh - 80px);
+}
+
+header .headerTitles input[type="text"]::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #8e74cf;
+  opacity: 1; /* Firefox */
+}
+
+header .headerTitles input[type="text"]:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #8e74cf;
+}
+
+header .headerTitles input[type="text"]::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #8e74cf;
 }
 
 main {
