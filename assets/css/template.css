@@ -1,6 +1,12 @@
 :root {
-  --nomeVar: #000;
-  --corPrimaria: #7950df;
+  --primaryColor: #7950df;
+  --primaryColor2: #8e74cf;
+
+  --secondaryColor: #48c774;
+  --secondaryColor2: #a2ecbb;
+
+  --bodyBackground: #f5f5f5;
+  --footerBackground: #242737;
 }
 
 * {
@@ -11,7 +17,7 @@
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: var(--bodyBackground);
 }
 
 /* CLASSES GENÉRICAS - INICIO */
@@ -72,11 +78,11 @@ body {
 }
 
 .has-border-1px-solid-green {
-  border: 1px solid #48c774;
+  border: 1px solid var(--secondaryColor);
 }
 
 .is-purple {
-  color: #7950df;
+  color: var(--primaryColor);
 }
 
 .is-lightgray {
@@ -84,7 +90,7 @@ body {
 }
 
 .has-background-purple {
-  background-color: #7950df;
+  background-color: var(--primaryColor);
 }
 
 .w-10 {
@@ -130,8 +136,25 @@ body {
 .has-border-radius-50 {
   border-radius: 50%;
 }
-
 /* CLASSES GENÉRICAS - FIM */
+
+/* ESTILOS GENÉRICOS - INICIO */
+input[type="text"]::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--primaryColor2);
+  opacity: 1; /* Firefox */
+}
+
+input[type="text"]:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--primaryColor2);
+}
+
+input[type="text"]::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: var(--primaryColor2);
+}
+/* ESTILOS GENÉRICOS - FIM */
 
 header {
   width: 100vw;
@@ -162,26 +185,10 @@ header .headerTitles {
   height: calc(80vh - 80px);
 }
 
-header .headerTitles input[type="text"]::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #8e74cf;
-  opacity: 1; /* Firefox */
-}
-
-header .headerTitles input[type="text"]:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: #8e74cf;
-}
-
-header .headerTitles input[type="text"]::-ms-input-placeholder {
-  /* Microsoft Edge */
-  color: #8e74cf;
-}
-
 header .divHeaderOverflow {
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to right, #7950df, #8e6ce333);
+  background-image: linear-gradient(to right, var(--primaryColor), #8e6ce333);
   top: 0;
   left: 0;
   z-index: 1;
@@ -195,7 +202,7 @@ main .squarePurple {
   display: none;
   width: 200px;
   height: 200px;
-  background-color: #a2ecbb;
+  background-color: var(--secondaryColor2);
   position: absolute;
   top: -150px;
   right: -210px;
@@ -212,12 +219,12 @@ main .squarePurple::after {
   position: absolute;
   top: 50px;
   right: -30px;
-  background-color: #7950df;
+  background-color: var(--primaryColor);
   border-radius: 30px;
   z-index: 1;
 }
 
 footer {
   width: 100vw;
-  background-color: #242737;
+  background-color: var(--footerBackground);
 }
