@@ -144,6 +144,16 @@ body {
 .has-cursor-pointer {
   cursor: pointer;
 }
+
+.showMenu {
+  top: 0 !important;
+  right: 0 !important;
+  opacity: 1 !important;
+}
+
+.is-overflow-hidden {
+  overflow: hidden !important;
+}
 /* CLASSES GENÉRICAS - FIM */
 
 /* ESTILOS GENÉRICOS - INICIO */
@@ -187,6 +197,11 @@ header .header .headerBrand {
 
 header .header .headerNav nav ul li {
   margin: 0 15px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+header .header .headerNav nav ul li:hover {
+  color: var(--secondaryColor);
 }
 
 header .headerTitles {
@@ -253,9 +268,10 @@ footer {
     z-index: 999999;
     overflow: hidden;
     padding-top: 50px;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.4s ease-in-out;
     right: -100%;
     top: -100%;
+    opacity: 0;
   }
 
   header .header .headerNav nav ul.isMobile li:first-child {
@@ -273,14 +289,8 @@ footer {
   }
 
   header .header .headerNav nav ul.isMobile li.has-margin-left-custom {
-    margin-left: 0 !important;
+    margin-left: 15px !important;
   }
-
-  .showMenu {
-    top: 0 !important;
-    right: 0 !important;
-  }
-
   /* MENU MOBILE - FIM */
 }
 
