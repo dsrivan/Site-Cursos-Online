@@ -251,10 +251,9 @@ footer {
     height: 100vh;
     flex-direction: column;
     z-index: 999999;
-    top: 0;
     overflow: hidden;
     padding-top: 50px;
-    transition: all 1s ease-in-out;
+    transition: all 0.2s ease-in-out;
     right: -100%;
     top: -100%;
   }
@@ -275,6 +274,11 @@ footer {
 
   header .header .headerNav nav ul.isMobile li.has-margin-left-custom {
     margin-left: 0 !important;
+  }
+
+  .showMenu {
+    top: 0 !important;
+    right: 0 !important;
   }
 
   /* MENU MOBILE - FIM */
