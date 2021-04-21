@@ -253,10 +253,19 @@ footer {
 }
 
 /* BREAKPOINTS - INICIO */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 400px) {
+  .h2Title {
+    font-size: 2.3em;
+  }
+}
+
+@media only screen and (min-width: 401px) {
   .h2Title {
     font-size: 2.9em;
   }
+}
+
+@media only screen and (max-width: 1024px) {
   /* MENU MOBILE - INICIO */
   header .header .headerNav nav ul.isMobile {
     position: fixed;
@@ -293,5 +302,4 @@ footer {
   }
   /* MENU MOBILE - FIM */
 }
-
 /* BREAKPOINTS - FIM */
