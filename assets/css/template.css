@@ -287,6 +287,17 @@ main .doubleDivOverlayRight::after {
   bottom: 30px;
 }
 
+main .Recommended-Courses {
+  top: -200px;
+  right: -220px;
+  background-color: var(--secondaryColor2);
+}
+
+main .Recommended-Courses::after {
+  bottom: -30px;
+  right: -30px;
+}
+
 footer {
   background-color: var(--footerBackground);
 }
