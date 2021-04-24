@@ -289,13 +289,24 @@ main .doubleDivOverlayRight::after {
 
 main .Recommended-Courses {
   top: -200px;
-  right: -220px;
+  right: -230px;
   background-color: var(--secondaryColor2);
 }
 
 main .Recommended-Courses::after {
   bottom: -30px;
   right: -30px;
+}
+
+main .Top-Categories {
+  top: -120px;
+  left: -240px;
+  border-radius: 30px;
+}
+
+main .Top-Categories::after {
+  border-radius: 30px;
+  bottom: 40px;
 }
 
 footer {
