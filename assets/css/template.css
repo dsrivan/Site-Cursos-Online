@@ -265,6 +265,28 @@ main .doubleDivOverlay::after {
   border-radius: 0 0 30px 0;
 }
 
+main .doubleDivOverlayRight {
+  width: 200px;
+  height: 200px;
+  top: 150px;
+  z-index: 2;
+  right: -120px;
+  background-color: #754bdd;
+  transform: rotate(45deg);
+  border-radius: 30px;
+}
+
+main .doubleDivOverlayRight::after {
+  position: absolute;
+  content: "";
+  width: 200px;
+  height: 200px;
+  background-color: #744fd0;
+  border-radius: 30px;
+  right: 50px;
+  bottom: 30px;
+}
+
 footer {
   background-color: var(--footerBackground);
 }
