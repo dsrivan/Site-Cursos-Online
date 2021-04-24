@@ -314,12 +314,25 @@ main .Top-Categories::after {
 
 main .aCard,
 main .aCard .aCard-Inner,
-main .aCard-Icon {
+main .aCard-Icon,
+main .aCard-Circle {
   transition: all 0.3s ease-in-out;
+  overflow: hidden;
 }
 
 main .aCard-Icon {
   bottom: 10px;
+  opacity: 0;
+}
+
+main .aCard-Circle {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #835edf;
+  border-radius: 50%;
+  right: -200px;
+  bottom: -200px;
   opacity: 0;
 }
 
@@ -335,6 +348,12 @@ main .aCard:hover .aCard-Inner p {
 
 main .aCard:hover .aCard-Icon {
   bottom: -5px;
+  opacity: 1;
+}
+
+main .aCard:hover .aCard-Circle {
+  right: -100px;
+  bottom: -100px;
   opacity: 1;
 }
 
