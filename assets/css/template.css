@@ -243,6 +243,28 @@ main .squarePurple::after {
   z-index: 1;
 }
 
+main .doubleDivOverlay {
+  width: 200px;
+  height: 200px;
+  bottom: 20px;
+  z-index: 1;
+  left: 50px;
+  background-color: var(--secondaryColor2);
+  transform: rotate(45deg);
+  border-radius: 0 0 30px 0;
+}
+
+main .doubleDivOverlay::after {
+  position: absolute;
+  content: "";
+  width: 200px;
+  height: 200px;
+  left: -30px;
+  background-color: var(--primaryColor);
+  bottom: -40px;
+  border-radius: 0 0 30px 0;
+}
+
 footer {
   background-color: var(--footerBackground);
 }
