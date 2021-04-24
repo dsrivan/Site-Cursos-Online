@@ -347,7 +347,7 @@ main .aCard:hover .aCard-Inner p {
 }
 
 main .aCard:hover .aCard-Icon {
-  bottom: -5px;
+  bottom: 0;
   opacity: 1;
 }
 
