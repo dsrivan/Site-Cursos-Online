@@ -385,6 +385,22 @@ main .aCard:hover .aCard-Circle {
   opacity: 1;
 }
 
+main .divImagesCircle {
+  border: 2px dashed #dadada;
+  padding: 55px;
+  z-index: 4;
+  transition: all 0.3s ease-in-out;
+}
+
+main .divImagesCircle:hover {
+  transform: rotate(20deg);
+  padding: 30px;
+}
+
+main .divImagesCircle:hover .divImagesCircle {
+  transform: scale(1.1);
+}
+
 footer {
   background-color: var(--footerBackground);
 }
