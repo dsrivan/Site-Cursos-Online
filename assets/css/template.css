@@ -92,6 +92,10 @@ body {
   color: var(--primaryColor);
 }
 
+.is-purple:hover {
+  color: #5633ac;
+}
+
 .is-lightgray {
   color: lightgray;
 }
