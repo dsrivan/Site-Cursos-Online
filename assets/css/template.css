@@ -167,6 +167,16 @@ article.column:hover .image img {
   transform: scale(1.1);
 }
 
+.material-icons.icon-play-circle {
+  transition: all 0.2s ease-in-out;
+  opacity: 0.6;
+}
+
+.material-icons.icon-play-circle:hover {
+  transform: scale(1.5);
+  opacity: 1;
+}
+
 /* CLASSES GENÉRICAS - FIM */
 
 /* ESTILOS GENÉRICOS - INICIO */
