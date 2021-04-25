@@ -386,7 +386,8 @@ main .aCard:hover .aCard-Circle {
 }
 
 main .divImagesCircle,
-main .divImagesCircle .divImagesCircle-Principal {
+main .divImagesCircle .divImagesCircle-Principal,
+main .brands .brand {
   transition: all 0.3s ease-in-out;
 }
 
@@ -406,6 +407,11 @@ main .divImagesCircle:hover .divImagesCircle {
 
 main .divImagesCircle:hover .divImagesCircle-Principal {
   transform: scale(1.5);
+}
+
+main .brands .brand:hover {
+  transform: scale(1.5);
+  cursor: pointer;
 }
 
 footer {
