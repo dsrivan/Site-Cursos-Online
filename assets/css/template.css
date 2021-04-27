@@ -414,6 +414,16 @@ main .brands .brand:hover {
   cursor: pointer;
 }
 
+main .divImagesCircle-Ext .doubleDivOverlayBigCircle {
+  width: 600px;
+  height: 600px;
+  top: -80px;
+  border-radius: 50px;
+  transform: rotate(45deg);
+  right: -400px;
+  z-index: 3;
+}
+
 footer {
   background-color: var(--footerBackground);
 }
@@ -432,6 +442,10 @@ footer {
 
   main .divImagesCircle .divImagesCircle-Principal {
     height: 14rem !important;
+  }
+
+  main .divImagesCircle-Ext .doubleDivOverlayBigCircle {
+    right: -420px;
   }
 }
 
