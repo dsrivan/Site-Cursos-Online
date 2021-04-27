@@ -171,12 +171,12 @@ article.column:hover .image img {
   transform: scale(1.1);
 }
 
-.material-icons.icon-play-circle {
+.column.icon-play-circle span {
   transition: all 0.2s ease-in-out;
   opacity: 0.6;
 }
 
-.material-icons.icon-play-circle:hover {
+.column.icon-play-circle:hover span {
   transform: scale(1.5);
   opacity: 1;
 }
@@ -419,9 +419,19 @@ footer {
 }
 
 /* BREAKPOINTS - INICIO */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 350px) {
+  main .divImagesCircle .divImagesCircle-Principal {
+    height: 12rem !important;
+  }
+}
+
+@media only screen and (min-width: 351px) and (max-width: 400px) {
   .h2Title {
-    font-size: 2.3em;
+    font-size: 1.8em;
+  }
+
+  main .divImagesCircle .divImagesCircle-Principal {
+    height: 14rem !important;
   }
 }
 
