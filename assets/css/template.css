@@ -244,6 +244,16 @@ header .divHeaderOverflow {
   z-index: 1;
 }
 
+header .input_Search {
+  width: 80%;
+  max-width: 330px;
+}
+
+header .btn_Search {
+  width: 150px;
+  max-width: 330px;
+}
+
 main {
   width: 100vw;
 }
@@ -398,7 +408,7 @@ main .divImagesCircle {
 }
 
 main .divImagesCircle:hover {
-  transform: rotate(20deg);
+  transform: rotate(-20deg);
 }
 
 main .divImagesCircle:hover .divImagesCircle {
@@ -455,6 +465,13 @@ footer {
   }
 }
 
+@media only screen and (max-width: 686px) {
+  .btn_Search {
+    width: 80% !important;
+    margin-top: 5px;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   /* MENU MOBILE - INICIO */
   header .header .headerNav nav ul.isMobile {
@@ -491,5 +508,14 @@ footer {
     margin-left: 15px !important;
   }
   /* MENU MOBILE - FIM */
+  main .Recommended-Courses {
+    right: -200px;
+  }
+  main .Top-Categories {
+    left: -190px;
+  }
+  main .doubleDivOverlay {
+    bottom: 40px !important;
+  }
 }
 /* BREAKPOINTS - FIM */
