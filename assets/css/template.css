@@ -158,6 +158,10 @@ body {
   overflow: hidden !important;
 }
 
+.has-Zindex-3 {
+  z-index: 3;
+}
+
 article.column .image img,
 article.column {
   transition: all 0.2s ease-in-out;
@@ -430,7 +434,7 @@ main .divImagesCircle-Ext .doubleDivOverlayBigCircle {
   top: -80px;
   border-radius: 50px;
   transform: rotate(45deg);
-  right: -400px;
+  right: -350px;
   z-index: 3;
 }
 
@@ -442,6 +446,11 @@ footer {
 @media only screen and (max-width: 350px) {
   main .divImagesCircle .divImagesCircle-Principal {
     height: 12rem !important;
+  }
+
+  main .divImagesCircle-Ext .doubleDivOverlayBigCircle {
+    top: -100px;
+    right: -450px;
   }
 }
 
@@ -459,7 +468,7 @@ footer {
   }
 
   main .divImagesCircle-Ext .doubleDivOverlayBigCircle {
-    right: -420px;
+    right: -450px;
   }
 }
 
@@ -473,6 +482,18 @@ footer {
   .btn_Search {
     width: 80% !important;
     margin-top: 5px;
+  }
+}
+
+@media only screen and (min-width: 686px) and (max-width: 768px) {
+  main .divImagesCircle-Ext .doubleDivOverlayBigCircle {
+    right: -270px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 999px) {
+  main .divImagesCircle-Ext .doubleDivOverlayBigCircle {
+    right: -380px;
   }
 }
 
