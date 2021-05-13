@@ -450,7 +450,7 @@ main .backToTop {
   cursor: pointer;
   z-index: 3;
   background-color: var(--primaryColor);
-  transition: all 0.7s ease-in-out;
+  transition: all 0.3s ease-in-out;
   border: 2px solid var(--colorWhite);
 }
 
