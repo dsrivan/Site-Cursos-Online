@@ -2,11 +2,6 @@
 
 > Scroll for details
 
-## Demonstration
-
-> _Image Inspiration_
-> ![Demo: 'Online Course School'](assets/images/demo/inspiration/inspiration.png)
-
 ### Description
 
 This project is about a Online Course School.
@@ -18,7 +13,12 @@ It don't for professional use!
 
 ### For look the result.
 
-Click on the link in the upper right corner of this page.
+Click on the link in the upper right corner of this page, on about section.
+
+### Demonstration
+
+> _Image Inspiration_
+> ![Demo: 'Online Course School'](assets/images/demo/inspiration/inspiration.png)
 
 ### For this development.
 
